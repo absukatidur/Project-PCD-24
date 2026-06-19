@@ -4,7 +4,7 @@
 
 Proyek ini bertujuan untuk menganalisis pengaruh berbagai teknik preprocessing terhadap performa klasifikasi citra CT Scan ginjal normal dan batu ginjal menggunakan fitur tekstur **Gray Level Co-occurrence Matrix (GLCM)**. Fitur tekstur citra diekstraksi menggunakan metode GLCM, kemudian dilakukan klasifikasi menggunakan tiga algoritma machine learning, yaitu **Support Vector Machine (SVM)**, **Random Forest**, dan **K-Nearest Neighbor (KNN)**.
 
-Selain membandingkan performa algoritma klasifikasi, penelitian ini juga bertujuan untuk mengetahui pengaruh berbagai teknik preprocessing terhadap kualitas fitur tekstur yang dihasilkan serta akurasi klasifikasi citra ginjal.
+Selain membandingkan performa algoritma klasifikasi, percobaan ini juga bertujuan untuk mengetahui pengaruh berbagai teknik preprocessing terhadap kualitas fitur tekstur yang dihasilkan serta akurasi klasifikasi citra ginjal.
 
 ---
 
@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-a
 
 ## Tahapan Preprocessing
 
-Penelitian ini menggunakan satu skenario baseline dan empat skenario preprocessing.
+Percobaan ini menggunakan satu skenario baseline dan empat skenario preprocessing.
 
 ### Baseline
 
@@ -98,7 +98,7 @@ Fitur tekstur citra diekstraksi menggunakan metode **Gray Level Co-occurrence Ma
 
 ## Metode Klasifikasi
 
-Penelitian ini membandingkan performa tiga algoritma machine learning.
+Percobaan ini membandingkan performa tiga algoritma machine learning.
 
 ### Support Vector Machine (SVM)
 
@@ -114,7 +114,7 @@ KNN melakukan klasifikasi berdasarkan kedekatan jarak antar data dengan memperti
 
 ---
 
-## Alur Penelitian
+## Alur Percobaan
 
 ```text
 Dataset CT Scan Ginjal
@@ -175,9 +175,9 @@ Digunakan untuk mengukur stabilitas dan kemampuan generalisasi model dengan memb
 
 ---
 
-## Output Penelitian
+## Output Percobaan
 
-Output yang dihasilkan pada penelitian ini meliputi:
+Output yang dihasilkan pada percobaan ini meliputi:
 
 * Dataset fitur hasil ekstraksi GLCM dalam format CSV.
 * Hasil klasifikasi menggunakan SVM, Random Forest, dan KNN.
